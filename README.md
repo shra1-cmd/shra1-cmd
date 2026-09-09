@@ -1,118 +1,92 @@
 
-
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Parsa%20Sai%20Shravan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20LLM%20Systems%20Engineer&descAlignY=60&descSize=20" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=230&section=header&text=Parsa%20Sai%20Shravan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20LLM%20Systems%20%7C%20ML%20Engineering&descAlignY=61&descSize=20" width="100%" />
 </p>
-
-<!-- INTRO -->
 
 <h2 align="center">👋 Hey, I'm Shra1</h2>
 
 <p align="center">
   <b>AI / LLM Systems Engineer</b>
-  <br>
-  Exploring the stack from <b>LLMs → PyTorch → ONNX → Runtime → CUDA → GPU</b>
+  <br><br>
+  Understanding AI beyond the model — from <b>Transformers → PyTorch → ONNX → Runtime → CUDA → GPU</b>
 </p>
 
 <p align="center">
-
 <a href="https://sravans.netlify.app/">
 <img src="https://img.shields.io/badge/🌐%20PORTFOLIO-6C5CE7?style=for-the-badge" />
 </a>
-
 <a href="https://www.linkedin.com/in/parsa-sai-shravan-862446355/">
 <img src="https://img.shields.io/badge/💼%20LINKEDIN-0A66C2?style=for-the-badge" />
 </a>
-
 <a href="mailto:cs24m119@iittp.ac.in">
 <img src="https://img.shields.io/badge/✉️%20EMAIL-EA4335?style=for-the-badge" />
 </a>
-
 <a href="https://github.com/shra1-cmd">
 <img src="https://img.shields.io/badge/🐙%20GITHUB-181717?style=for-the-badge" />
 </a>
-
 </p>
-
-<br>
 
 ---
 
 ## 🧠 About Me
 
-I'm interested in understanding **how modern AI systems actually work underneath the model**.
+I'm interested in understanding **how AI systems actually execute underneath the model**.
 
-Rather than focusing only on training models, I'm exploring the complete path from a high-level neural network to its execution on hardware.
+My focus is on the engineering stack connecting modern neural networks to real hardware — from model graphs and frameworks to inference runtimes and GPU kernels.
 
 ```text
-┌───────────────────────────────┐
-│        LLM / Transformer      │
-└───────────────┬───────────────┘
-                ↓
-┌───────────────────────────────┐
-│            PyTorch             │
-│      torch.export / FX        │
-└───────────────┬───────────────┘
-                ↓
-┌───────────────────────────────┐
-│             ONNX              │
-│       Graph Representation    │
-└───────────────┬───────────────┘
-                ↓
-┌───────────────────────────────┐
-│        ONNX Runtime           │
-│     Execution Providers       │
-└───────────────┬───────────────┘
-                ↓
-┌───────────────────────────────┐
-│       CUDA / GPU Kernels      │
-│   Memory • Compute • Hardware │
-└───────────────────────────────┘
+                 🧠 LLM / TRANSFORMER
+                         │
+                         ▼
+                    🔥 PyTorch
+                         │
+                  torch.export / FX
+                         │
+                         ▼
+                      🔄 ONNX
+                         │
+                         ▼
+                  ⚙️ ONNX Runtime
+                         │
+                  Execution Providers
+                         │
+                         ▼
+                  🖥️ CUDA / GPU
+                         │
+                         ▼
+                 ⚡ GPU KERNELS
+                         │
+                         ▼
+                    HARDWARE
 ````
 
 ---
 
-## 🚀 What I'm Working On
-
-* 🧠 Transformer & LLM implementations
-* 🔥 PyTorch internals and model execution
-* ⚙️ PyTorch → ONNX export pipeline
-* 🔄 ONNX graph construction and operator translation
-* 🚀 ONNX Runtime internals
-* 🖥️ CUDA & GPU computing
-* ⚡ GPU kernel and inference optimization
-* 💻 Competitive programming
-
----
-
-## 🔬 My Technical Interests
+## 🚀 Current Focus
 
 <table>
 <tr>
 <td width="50%">
 
-### 🧠 AI / ML
+### 🧠 LLM Systems
 
-* Transformers
-* LLMs
-* Attention
-* Deep Learning
-* Model Inference
-* PyTorch
+* Transformer architectures
+* Attention mechanisms
+* LLM inference
+* Model execution
+* PyTorch internals
 
 </td>
 
 <td width="50%">
 
-### ⚙️ AI Systems
+### ⚙️ AI Infrastructure
 
-* ONNX
+* PyTorch → ONNX
+* ONNX graph representation
 * ONNX Runtime
-* torch.export
-* FX Graphs
 * Execution Providers
-* Model Serving
+* Model serving
 
 </td>
 </tr>
@@ -120,20 +94,19 @@ Rather than focusing only on training models, I'm exploring the complete path fr
 <tr>
 <td width="50%">
 
-### 🖥️ GPU / Hardware
+### 🖥️ GPU Computing
 
 * CUDA
-* GPU Computing
-* GPU Kernels
-* Memory Hierarchy
-* Performance Optimization
-* Inference Acceleration
+* GPU architecture
+* Kernel programming
+* Memory hierarchy
+* Performance optimization
 
 </td>
 
 <td width="50%">
 
-### 💻 Programming
+### 💻 Engineering
 
 * Python
 * C++
@@ -148,76 +121,126 @@ Rather than focusing only on training models, I'm exploring the complete path fr
 
 ---
 
+## 🔬 What I'm Exploring
+
+```text
+Model
+  │
+  ├── Transformer
+  ├── Attention
+  └── LLM Architecture
+  │
+  ▼
+Framework
+  │
+  ├── PyTorch
+  ├── torch.export
+  └── FX / Graphs
+  │
+  ▼
+Compiler / Graph
+  │
+  ├── ATen Operators
+  ├── ONNX Translation
+  └── Graph Transformations
+  │
+  ▼
+Runtime
+  │
+  ├── ONNX Runtime
+  ├── Execution Providers
+  └── Kernel Dispatch
+  │
+  ▼
+Hardware
+  │
+  ├── CUDA
+  ├── GPU Kernels
+  ├── Memory
+  └── Compute
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 <p align="center">
-
 <img src="https://skillicons.dev/icons?i=python,cpp,c,pytorch,linux,git,github&perline=7" />
-
 </p>
 
 <p align="center">
-
 <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
 <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
 <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-<img src="https://img.shields.io/badge/LLM-Systems-8A2BE2?style=for-the-badge" />
-
+<img src="https://img.shields.io/badge/ONNX%20Runtime-5C3EE8?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LLM%20Systems-8A2BE2?style=for-the-badge" />
 </p>
 
 ---
 
 ## 📂 Featured Work
 
-### 🔹 LLM & Transformer Systems
+### 🔥 Transformer & LLM Systems
 
-Exploring Transformer architecture, attention mechanisms, inference and implementation details.
+Studying Transformer implementations, attention, inference and the internals behind modern LLM architectures.
 
-### 🔹 PyTorch → ONNX
+### ⚙️ PyTorch → ONNX
 
-Understanding the export pipeline:
+Exploring what happens when a PyTorch model becomes an ONNX graph:
 
 ```text
 PyTorch Model
-     ↓
+      ↓
 torch.export
-     ↓
-FX / Exported Graph
-     ↓
+      ↓
+Exported / FX Graph
+      ↓
 ATen Operators
-     ↓
+      ↓
 ONNX Translation
-     ↓
+      ↓
 ONNX Graph
 ```
 
-### 🔹 ONNX Runtime
+### 🚀 ONNX Runtime
 
-Exploring:
+Understanding how an ONNX graph reaches actual execution:
 
 ```text
 ONNX Model
-     ↓
+      ↓
 Graph
-     ↓
+      ↓
 Operators
-     ↓
+      ↓
 Execution Provider
-     ↓
+      ↓
 Kernel
-     ↓
-Hardware
+      ↓
+GPU / CPU
 ```
 
-### 🔹 CUDA & GPU Computing
+### 🖥️ CUDA & GPU Computing
 
-Learning how AI workloads map onto GPUs through:
+Exploring how AI workloads map onto GPUs:
 
-`Kernels` → `Threads` → `Blocks` → `Memory` → `Compute`
+```text
+Kernel
+   ↓
+Threads
+   ↓
+Thread Blocks
+   ↓
+SMs
+   ↓
+Memory Hierarchy
+   ↓
+GPU Compute
+```
 
-### 🔹 Competitive Programming
+### 💻 Competitive Programming
 
-Building algorithmic problem-solving skills through competitive programming and DSA.
+Practicing algorithms, data structures and problem solving through competitive programming.
 
 ---
 
@@ -241,92 +264,95 @@ Building algorithmic problem-solving skills through competitive programming and 
 
 ---
 
-## 📚 Currently Learning
+## 📚 Learning Path
 
 ```text
-┌─────────────────────────────────────┐
-│                                     │
-│  🧠 LLM / Transformer Internals     │
-│  ⚙️  PyTorch Internals              │
-│  🔄 ONNX & Graph Representation     │
-│  🚀 ONNX Runtime                    │
-│  🖥️  CUDA & GPU Computing           │
-│  ⚡ GPU Kernel Optimization          │
-│  🔧 Compiler Fundamentals            │
-│  📈 LLM Inference Optimization      │
-│                                     │
-└─────────────────────────────────────┘
+                    AI SYSTEMS
+                        │
+        ┌───────────────┼───────────────┐
+        ▼               ▼               ▼
+      MODELS         RUNTIMES        HARDWARE
+        │               │               │
+   Transformers      ONNX RT          CUDA
+        │               │               │
+     PyTorch       Execution EPs    GPU Kernels
+        │               │               │
+        └───────────────┼───────────────┘
+                        ▼
+                 INFERENCE
+                 OPTIMIZATION
 ```
+
+Currently going deeper into:
+
+* 🧠 LLM & Transformer internals
+* 🔥 PyTorch internals
+* 🔄 ONNX export and graph representation
+* ⚙️ ONNX Runtime
+* 🖥️ CUDA & GPU computing
+* ⚡ GPU kernel optimization
+* 🔧 Compiler fundamentals
+* 📈 LLM inference optimization
 
 ---
 
-## 🎯 Long-Term Focus
+## 🎯 Engineering Philosophy
 
-My goal is to understand the **complete AI systems stack** rather than treating the model as a black box.
+> **Don't treat the model as a black box. Understand the stack underneath it.**
+
+I want to understand the path from:
 
 ```text
-                    AI MODEL
-                       │
-                       ▼
-                ┌─────────────┐
-                │ Transformers│
-                └──────┬──────┘
-                       ▼
-                ┌─────────────┐
-                │   PyTorch   │
-                └──────┬──────┘
-                       ▼
-                ┌─────────────┐
-                │    ONNX     │
-                └──────┬──────┘
-                       ▼
-                ┌─────────────┐
-                │ ONNX Runtime│
-                └──────┬──────┘
-                       ▼
-                ┌─────────────┐
-                │ CUDA / GPU  │
-                └──────┬──────┘
-                       ▼
-                ┌─────────────┐
-                │  HARDWARE   │
-                └─────────────┘
+Neural Network
+      ↓
+Computation Graph
+      ↓
+Framework
+      ↓
+Compiler / IR
+      ↓
+Runtime
+      ↓
+Kernel
+      ↓
+Hardware
 ```
 
-**Particularly interested in LLM systems, inference performance, runtimes, GPU kernels and hardware-aware optimization.**
+with a particular interest in **LLM systems, inference performance and hardware-aware optimization**.
+
 
 
 ## 🤝 Connect With Me
 
 <p align="center">
 
-<a href="https://github.com/shra1-cmd">
-<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github" />
+<a href="https://sravans.netlify.app/">
+<img src="https://img.shields.io/badge/🌐%20PORTFOLIO-6C5CE7?style=for-the-badge" />
 </a>
 
 <a href="https://www.linkedin.com/in/parsa-sai-shravan-862446355/">
-<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin" />
-</a>
-
-<a href="https://sravans.netlify.app/">
-<img src="https://img.shields.io/badge/PORTFOLIO-6C5CE7?style=for-the-badge&logo=googlechrome" />
+<img src="https://img.shields.io/badge/💼%20LINKEDIN-0A66C2?style=for-the-badge" />
 </a>
 
 <a href="mailto:cs24m119@iittp.ac.in">
-<img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/✉️%20cs24m119%40iittp.ac.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://github.com/shra1-cmd">
+<img src="https://img.shields.io/badge/🐙%20GITHUB-181717?style=for-the-badge&logo=github" />
 </a>
 
 </p>
 
+---
+
 <p align="center">
-  <i>Exploring AI from models to kernels.</i>
+  <i>⚡ Exploring AI from models to kernels.</i>
 </p>
 
 <p align="center">
   ⭐ Feel free to explore my repositories and experiments.
 </p>
-
-<!-- FOOTER BANNER -->
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
